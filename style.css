@@ -42,7 +42,7 @@ h1{
     color: rgb(243, 211, 29);
     font-size: 80px;
 }
-#addBookBtn{
+#addBookMenuBtn{
     display: block;
     margin: 0px auto;
     width:110px;
@@ -98,4 +98,9 @@ h1{
 }
 #inputContainer input{
     float: right;
+}
+#bookContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

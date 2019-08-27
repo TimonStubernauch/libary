@@ -7,7 +7,7 @@
     <body>
         <header>
             <h1>Libary</h1>
-            <button id="addBookBtn">Add Book</button>
+            <button id="addBookMenuBtn">Add Book</button>
         </header>
         <main>
             <div id="addBook"></div>
@@ -16,15 +16,15 @@
         </main>
         <div id="addBookMenu">
             <div id="inputContainer">
-                <label>Title:<input class="iText" type="text" name="title"></label>
-                <label>Author:<input class="iText" type="text" name="author"></label>
-                <label>Read:<input class="iText" type="checkbox" name="read"></label>
+                <label>Title:<input id="addBookTitle"class="iText" type="text" name="title"></label>
+                <label>Author:<input id="addBookAuthor" class="iText" type="text" name="author"></label>
+                <label>Read:<input id="addBookRead" class="iText" type="checkbox" name="read" value="false" unchecked></label>
             </div>            
             <div>
-                <button>Add</button>
-                <button>Cancle</button>           
+                <button id="addBookBtn">Add</button>
+                <button id="cancleBtn">Cancle</button>           
             </div>
         </div>
     </body>
-</html>
+</html >
 <script src="script.js"></script>
